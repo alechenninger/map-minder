@@ -106,7 +106,7 @@ class ManyShotPromptStrategy extends PromptStrategy {
 
 CharacteristicScore _parseScore(
     Map<String, dynamic> scoreResults, String characteristic) {
-  var score = scoreResults[characteristic]['score'];
-  score ??= scoreResults[characteristic.toLowerCase()]['score'];
+  var score = scoreResults[characteristic]?['score'];
+  score ??= scoreResults[characteristic.toLowerCase()]?['score'];
   return CharacteristicScore(score);
 }
