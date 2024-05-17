@@ -1,6 +1,6 @@
 # Map Minder
 
-This is a simple POC which demonstrates using LLMs to automate mediating assessments of Simon Wardley's evolutionary characteristics cheat-sheet, in order to provide some guidance when trying to determine a component's placement on the evolution axis.
+This is a simple POC which demonstrates using LLMs to automate mediating assessments of Simon Wardley's evolutionary characteristics cheat-sheet, in order to provide some guidance when trying to determine a component's placement on the evolution axis of a Wardley Map.
 
 ```shell
 $ dart bin/map_minder.dart "LLM-assisted wardley mapping"
